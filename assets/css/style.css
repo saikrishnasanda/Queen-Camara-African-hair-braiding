@@ -312,22 +312,33 @@ body {
   align-items: center;
 }
 
-.logo {
+.logo1 {
+  background-image: url('/assets/images/WhatsApp_Image_2024-05-13_at_08.52.56_0b028aa1-removebg-preview.png'); /* Replace with the actual path to your logo image */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  color: transparent; /* Make the text transparent */
+  width: 85px; /* Adjust the width as needed */
+  height: 90px; /* Adjust the height as needed */
+  text-indent: -9999px;
+  
+}
+.logo{
   color: var(--indian-yellow);
   font-family: var(--ff-oswald);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  position: left;
   font-weight: var(--fw-600);
   text-transform: uppercase;
   line-height: 1.4;
 }
-
 .logo .span {
   color: var(--white);
   font-family: var(--ff-rubik);
   font-size: 1.3rem;
   font-weight: var(--fw-300);
   text-transform: capitalize;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .nav-toggle-btn {
@@ -665,14 +676,14 @@ textarea.input-field {
   color: var(--white);
   font-family: var(--ff-oswald);
   font-size: var(--fs-14);
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-600);
   text-transform: uppercase;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 1px solid var(--white);
+  border: 5px solid var(--white);
   padding: 13px;
   border-radius: var(--radius-5);
   transition: var(--transition-1);
